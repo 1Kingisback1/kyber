@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>Visual kiber pank</title>
+</head>
+<body>
+
+    <!-- Основной блок контента
+    Идея была в верстке близкой к стилистике киберпанка -->
+
+        <header class="navbar">
+            <nav>
+                <a href="#" class="navbar_Item">Главная</a>
+                <a href="./page/about.html" class="navbar_Item">О нас</a>
+                <a href="./page/contacts.html" class="navbar_Item">Контакты</a>
+            </nav>
+        </header>
+
+        <main class="container">
+            <div class="content">
+                <div class="firstContent">
+                    <div class="profilFoto">
+                        <img src="./img/photo.jpg"alt="profilfoto">
+                    </div>
+                    <div class="profilContent">
+                        <div class="Name">
+                            <h2>Vladislav Korol</h2>
+                        </div>
+                        <!-- add accordion -->
+                        <div class="accordion">
+                            
+                            <button class="select" title="Мои интересы">
+                                <img src="./img/sword.png" alt="">Мои интересы</button>
+                            <div class="accordion_body">
+                                <ul>
+                                    <li>Общение с людьми</li>
+                                </ul>
+                                <ul>
+                                    <li>Чтение</li>
+                                </ul>
+                                <ul>
+                                    <li>Просмотр фильмов</li>
+                                </ul>
+                                <ul>
+                                    <li>Изучение современного вэбдизайна</li>
+                                </ul>
+                            </div>
+                            <!-- and accordion -->
+                        </div>
+                    </div>
+                </div>
+                <div class="secondaryContent">
+                    <div class="myTarget">
+                        <div class="headTarget">
+                            <img src="./img/free-icon-aim-8710265.png" alt="Style creat by Paul J. Flat">
+                        </div>
+                        <div class="targetCont">
+                            <ul>
+                                <li>Расшириенное познание JS</li>
+                                <li>Участие в создании современных интерфейсов</li>
+                                <li>Заняться разработкой игр</li>
+                                <li>Свобода</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mySkills">
+                        <div class="headSkill">
+                            <img src="./img/free-icon-brain-6844442.png" alt="Style creat by Paul J. Flat">
+                        </div>
+                        <div class="skillCont">
+                            <ul>
+                                <li> <span class="skilltext">HTML</span> </li>
+                                <li> <span class="skilltext">CSS(LESS)</span></li>
+                                <li> <span class="skilltext">Поверхностные знания JS</span></li>
+                                <li> <span class="skilltext">Adobe PS</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+
+            <div class="logoFooter">
+                <span>&copy;&nbsp;Skillfactory</span>
+            </div>
+            
+        </footer>    
+
+<script src="../js/accordion.js"></script>
+</body>
+</html>
